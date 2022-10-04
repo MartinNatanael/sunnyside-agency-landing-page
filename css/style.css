@@ -22,4 +22,45 @@
   --weight-3:900;
 }
 
+body {
+  background-color: transparent;
+  width: 100%;
+}
+body .nav-container {
+  position: absolute;
+  width: 100vw;
+  height: 6em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  z-index: 1;
+}
+body .nav-container .nav-container-elements {
+  padding: 0.625rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+body .nav-container .nav-container-elements .nav-item-container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-left: 37.5rem;
+}
+body .nav-container .nav-container-elements .nav-item-container .nav-item {
+  padding: 0 1rem;
+}
+body .nav-container .nav-container-elements .nav-logo {
+  width: auto;
+  height: 2em;
+}
+body .header-container {
+  position: relative;
+  width: 100%;
+  height: 40em;
+  background-image: url(../images/desktop/image-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 /*# sourceMappingURL=style.css.map */
