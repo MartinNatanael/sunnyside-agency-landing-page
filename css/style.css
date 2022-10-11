@@ -17,14 +17,14 @@
   --Dark-grayish-blue: hsl(232, 10%, 55%);
   --Grayish-blue: hsl(210, 4%, 67%);
   --White: hsl(0, 0%, 100%);
-  --weight-1:600;
-  --weight-2:700;
-  --weight-3:900;
+  --weight-1: 600;
+  --weight-2: 700;
+  --weight-3: 900;
 }
 
 body {
   background-color: transparent;
-  width: 100%;
+  max-width: 100%;
 }
 body .nav-container {
   position: absolute;
@@ -59,13 +59,30 @@ body .nav-container .nav-hamburger img {
   fill: var(--White);
 }
 body .header-container {
-  position: relative;
+  position: absolute;
   width: 100%;
-  height: 40em;
+  height: 42em;
   background-image: url(../images/desktop/image-header.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+body .header-container .title-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .header-container .title-container .title-container-h1 {
+  margin-bottom: 4em;
+  font-family: "Fraunces";
+  color: var(--White);
+  font-weight: var(--weight-3);
+  text-transform: uppercase;
+  letter-spacing: 0.625rem;
+  font-size: 2.3em;
 }
 
 /*# sourceMappingURL=style.css.map */
