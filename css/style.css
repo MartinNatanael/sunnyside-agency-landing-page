@@ -40,6 +40,7 @@ body .nav-container .nav-container-elements {
   padding: 0.625rem 1.25rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 body .nav-container .nav-container-elements .nav-item-container {
   list-style: none;
@@ -48,14 +49,37 @@ body .nav-container .nav-container-elements .nav-item-container {
   margin-left: 37.5rem;
 }
 body .nav-container .nav-container-elements .nav-item-container .nav-item {
-  padding: 0 1rem;
+  text-decoration: none;
+  color: var(--White);
+  padding: 15px 30px;
   font-family: "Barlow";
+}
+body .nav-container .nav-container-elements .nav-item-container .nav-item:hover {
+  color: var(--Very-dark-desaturated-blue);
+  transition: all 0.2s ease-out;
+}
+body .nav-container .nav-container-elements .nav-item-container .nav-item-btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.9375rem;
+  font-weight: var(--weight-2);
+  color: var(--Very-dark-desaturated-blue);
+  background-color: var(--White);
+  border-radius: 2rem;
+  padding: 15px 30px;
+  margin-left: 10px;
+}
+body .nav-container .nav-container-elements .nav-item-container .nav-item-btn:hover {
+  background-color: hsla(0deg, 0%, 93%, 0.349);
+  color: var(--White);
+  transition: all 0.2s ease-out;
 }
 body .nav-container .nav-container-elements .nav-logo {
   width: auto;
-  height: 2em;
+  height: 2rem;
 }
 body .nav-container .nav-hamburger img {
+  display: none;
   background-color: none;
   fill: var(--White);
 }
@@ -77,13 +101,16 @@ body .header-container .title-container {
   justify-content: center;
 }
 body .header-container .title-container .title-container-h1 {
-  margin-bottom: 4em;
+  margin-bottom: 1em;
   font-family: "Fraunces";
   color: var(--White);
   font-weight: var(--weight-3);
   text-transform: uppercase;
   letter-spacing: 0.625rem;
-  font-size: 2.3em;
+  font-size: 3em;
+}
+body .header-container .title-container .header-container-img {
+  padding-bottom: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
