@@ -5,6 +5,7 @@
   font-family: "Fraunces", serif;
   font-size: 18px;
   box-sizing: border-box;
+  max-width: 100vw;
 }
 
 :root {
@@ -28,11 +29,10 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .header-container {
-  width: 100%;
   background-color: #3EBFFF;
   height: 4.6875rem;
   display: flex;
@@ -109,6 +109,13 @@ body {
 }
 .first-section-container .title-container .container-img {
   padding-bottom: 2rem;
+}
+
+.second-section-container {
+  height: 500px;
+}
+.second-section-container img {
+  height: 500px;
 }
 
 /*# sourceMappingURL=style.css.map */
