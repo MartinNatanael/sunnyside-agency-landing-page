@@ -9,7 +9,7 @@
 }
 
 :root {
-  --Soft-red: hsl(7, 99%, 70%);
+  --Soft-red: #FF7364;
   --Yellow: hsl(51, 100%, 49%);
   --Dark-desaturated-cyan: hsl(167, 40%, 24%);
   --Dark-blue: hsl(198, 62%, 26%);
@@ -127,13 +127,13 @@ body {
 }
 .second-section-container .text-container h3 {
   font-size: 2rem;
-  line-height: 45px;
+  line-height: 2.8125rem;
   color: var(--Very-dark-desaturated-blue);
 }
 .second-section-container .text-container p {
   font-family: "Barlow", sans-serif;
-  line-height: 30px;
-  margin-right: 100px;
+  line-height: 1.875rem;
+  margin-right: 6.25rem;
   color: var(--Very-dark-grayish-blue);
 }
 .second-section-container .img-container {
@@ -160,13 +160,13 @@ body {
 }
 .third-section-container .text-container h3 {
   font-size: 2rem;
-  line-height: 45px;
+  line-height: 2.8125rem;
   color: var(--Very-dark-desaturated-blue);
 }
 .third-section-container .text-container p {
   font-family: "Barlow", sans-serif;
   line-height: 30px;
-  margin-right: 100px;
+  margin-right: 6.25rem;
   color: var(--Very-dark-grayish-blue);
 }
 .third-section-container .img-container {
@@ -175,6 +175,114 @@ body {
 }
 .third-section-container .img-container img {
   height: fit-content;
+}
+
+.two-images-section {
+  display: flex;
+  flex-direction: row;
+  height: 37.5rem;
+  position: relative;
+  width: 100%;
+}
+.two-images-section .first-image {
+  flex: 50%;
+  background-image: url(../images/desktop/image-graphic-design.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.two-images-section .first-image .text-area {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 6rem;
+  color: var(--Dark-desaturated-cyan);
+  padding-top: 18rem;
+}
+.two-images-section .first-image .text-area h3 {
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.two-images-section .first-image .text-area p {
+  padding: 0rem 5rem;
+  font-family: "Barlow", sans-serif;
+  line-height: 1.5625rem;
+}
+.two-images-section .second-image {
+  flex: 50%;
+  background-image: url(../images/desktop/image-photography.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.two-images-section .second-image .text-area {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 6rem;
+  color: var(--Very-dark-desaturated-blue);
+  padding-top: 18rem;
+}
+.two-images-section .second-image .text-area h3 {
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.two-images-section .second-image .text-area p {
+  font-family: "Barlow", sans-serif;
+  padding: 0rem 5rem;
+  line-height: 1.5625rem;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 150px 100px;
+}
+.testimonials h2 {
+  text-transform: uppercase;
+  color: var(--Grayish-blue);
+  letter-spacing: 5px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.testimonials ul {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.testimonials ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 50px;
+}
+.testimonials ul li p {
+  margin-top: 30px;
+  line-height: 1.6rem;
+  font-family: "Barlow", sans-serif;
+  color: var(--Very-dark-grayish-blue);
+  text-align: center;
+}
+.testimonials ul li .name {
+  margin-top: 1.25rem;
+  color: var(--Very-dark-desaturated-blue);
+  font-weight: var(--weight-3);
+}
+.testimonials ul li .title {
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  margin-top: 20px;
+  color: var(--Grayish-blue);
+}
+.testimonials ul li img {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
 }
 
 /*# sourceMappingURL=style.css.map */
