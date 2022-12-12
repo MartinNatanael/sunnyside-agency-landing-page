@@ -105,8 +105,8 @@ body {
 
 // end header
 
-// first section
-.first-section-container {
+// main section
+.main-section-container {
 
     max-width: 100vw;
     height: 40em;
@@ -142,10 +142,10 @@ body {
 }
 
 
-// end first section
+// end main section
 
-//second section
-.second-section-container {
+//first section
+.first-section-container {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -157,7 +157,7 @@ body {
         align-items: center;
         flex-direction: column;
         align-items: flex-start;
-        padding: 150px 120px;
+        padding: 9.375rem 6.25rem;
 
         h3 {
             font-size: 2rem;
@@ -172,7 +172,27 @@ body {
             margin-right: 6.25rem;
             color: var(--Very-dark-grayish-blue);
         }
-    }
+        .button-fs{
+            color: var(--Very-dark-desaturated-blue);
+            margin-top: 50px;
+           margin-left: 20px;
+            text-transform: uppercase;
+            text-align: center;
+            cursor: pointer;
+            &:hover{
+                &:after{
+                    content: "";
+                    display: block;
+                    background-color: var(--Yellow);
+                    margin-top: -10px;
+                    padding-top: 5px;
+                    border-radius: 10px;
+                    height: 5px;
+                    width: 100%; 
+                }
+            }
+        }
+        }
 
     .img-container {
         flex: 50%;
@@ -184,7 +204,7 @@ body {
     }
 }
 
-.third-section-container {
+.second-section-container {
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
@@ -196,7 +216,7 @@ body {
         align-items: center;
         flex-direction: column;
         align-items: flex-start;
-        padding: 150px 120px;
+        padding: 9.375rem 6.25rem;
 
         h3 {
             font-size: 2rem;
@@ -211,6 +231,27 @@ body {
             margin-right: 6.25rem;
             color: var(--Very-dark-grayish-blue);
         }
+        .button-ss{
+            color: var(--Very-dark-desaturated-blue);
+            margin-top: 50px;
+           margin-left: 20px;
+            text-transform: uppercase;
+            text-align: center;
+            cursor: pointer;
+            &:hover{
+                &:after{
+                    content: "";
+                    display: block;
+                    background-color: var(--Soft-red);
+                    margin-top: -10px;
+                    padding-top: 5px;
+                    border-radius: 10px;
+                    height: 5px;
+                    width: 100%; 
+                }
+            }
+        }
+        
     }
 
     .img-container {
