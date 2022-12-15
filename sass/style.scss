@@ -32,6 +32,9 @@
     --weight-3: 900;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 body {
     background-color: transparent;
     display: flex;
@@ -436,12 +439,6 @@ body {
         list-style: none;
         justify-content: space-between;
 
-        .logo-footer {
-            svg {
-                fill: var(--Dark-desaturated-cyan);
-            }
-        }
-
         li {
             a {
                 text-decoration: none;
@@ -463,6 +460,14 @@ body {
         li {
             margin-top: 40px;
             padding: 0px 20px;
+            a{
+                img{
+                   &:hover{
+                    transition: all 0.4s ease-in;
+                    filter:brightness(100);
+                   } 
+                }
+            }
         }
     }
 

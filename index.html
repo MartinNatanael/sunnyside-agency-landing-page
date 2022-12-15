@@ -11,6 +11,7 @@
     rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/style.css">
+ 
 
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 </head>
@@ -19,14 +20,14 @@
 
   <!-- header -->
   <header class="header-container">
-    <img class="nav-logo" src="images/logo.svg" alt="">
+    <a href="#main"><img class="nav-logo" src="images/logo.svg" alt=""></a>
     <nav class="nav-container">
       <span class="nav-hamburger"><img src="images/icon-hamburger.svg" alt=""></span>
       <ul class="nav-item-container">
         <li><a href="" class="nav-item">About</a></li>
         <li><a href="" class="nav-item">Services</a></li>
         <li><a href="" class="nav-item">Projects</a></li>
-        <li><a href="" class="nav-item-btn">Contact</a></li>
+        <li><a href="#footer" class="nav-item-btn">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -36,13 +37,13 @@
   <main class="main-section-container" id="main">
     <div class="title-container">
       <h1 class="title-container-h1">We are creatives</h1>
-      <a class="container-img" href=""><img src="images/icon-arrow-down.svg" alt=""></a>
+      <a class="container-img" href="#first-section"><img src="images/icon-arrow-down.svg" alt=""></a>
     </div>
   </main>
   <!-- end main section -->
 
   <!-- first section -->
-  <section class="first-section-container">
+  <section class="first-section-container" id="first-section">
     <div class="text-container">
       <h3>Transform your <br>brand</h3>
       <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through
@@ -120,7 +121,7 @@
   </section>
 
 
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <a href="#main"><img class="logo-footer" alt="" src="images/logo.svg"></a>
     <ul class="footer-nav">
       <li><a href="">About</a></li>
@@ -128,13 +129,12 @@
       <li><a href="">Projects</a></li>
     </ul>
     <ul class="social-icons">
-      <li><img src="images/icon-instagram.svg" alt=""></li>
-      <li><img src="images/icon-pinterest.svg" alt=""></li>
-      <li><img src="images/icon-twitter.svg" alt=""></li>
+      <li><a href="https://www.linkedin.com/in/martin-natanael/" target="_blank"><img src="images/001-linkedin.png" alt=""></a></li>
+      <li><a href="https://github.com/MartinNatanael" target="_blank" ><img src="images/002-github.png" alt=""></a></li>
     </ul>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://github.com/MartinNatanael" target="_blank">Martin Natanael Martinez</a>.
+      Coded by <a href="https://github.com/MartinNatanael/sunnyside-agency-landing-page" target="_blank" >Martin Natanael Martinez</a>.
     </div>
   </footer>
 </body>
